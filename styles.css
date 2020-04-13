@@ -446,9 +446,8 @@ body {
 
 #about_me_text
 {
-	width: 1000px;
+	width: 800px;
 	font-size: 18px;
-	padding-left: 100px;
 	padding-top: 25px;
 	letter-spacing: 3px;
 }

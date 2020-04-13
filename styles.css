@@ -1,0 +1,478 @@
+body {
+	background-color: #000000;
+}
+
+#AJZ_cloud {
+	color: #FFFFFF;
+	font-family: "Ubuntu";
+	letter-spacing: 5px;
+	font-size: 18px;
+	min-width: 1000px;
+}
+
+#AJZ_cloud_img
+{
+	padding-top: 50px;
+	min-height: 700px;
+}
+
+#AJZ_cloud_img_img
+{	
+	width:100%;
+	max-width: 1500px;
+}
+
+#AJZ_cloud_text
+{
+	padding-top: 100px;
+}
+
+#AJZ_cloud_line
+{
+	padding-top: 25px;
+	width:80%;
+}
+
+#AJZ_cloud_buttons
+{
+	min-width: 1000px;
+	width: 50%;
+	letter-spacing: 50px;
+	padding-top: 25px;
+	padding-bottom: 300px;
+}
+
+#google_play_button
+{
+	background-color: #000000;
+	color: #AAAAAA;
+	border: 2px solid #AAAAAA;
+	padding: 15px 15px;
+	border-radius: 12px;
+	text-align: center;
+	display: inline-block;
+	font-family: "Ubuntu";
+	letter-spacing: 3px;
+	font-size: 18px;
+	transition-duration: 0.2s;
+}
+#google_play_button:hover { border:2px solid #008CC8; color: #008CC8; }
+#google_play_button:active { background-color: #FFFFFF }
+
+#ludum_dare_button
+{
+	background-color: #000000;
+	color: #AAAAAA;
+	border: 2px solid #AAAAAA;
+	padding: 15px 15px;
+	border-radius: 12px;
+	text-align: center;
+	display: inline-block;
+	font-family: "Ubuntu";
+	letter-spacing: 3px;
+	font-size: 18px;
+	transition-duration: 0.2s;
+}
+#ludum_dare_button:hover { border: 2px solid #FA58FF; color: #FA58FF; }
+#ludum_dare_button:active { background-color: #FFFFFF }
+
+#js_canvas_button
+{
+	background-color: #000000;
+	color: #AAAAAA;
+	border: 2px solid #AAAAAA;
+	padding: 15px 15px;
+	border-radius: 12px;
+	text-align: center;
+	display: inline-block;
+	font-family: "Ubuntu";
+	letter-spacing: 3px;
+	font-size: 18px;
+	transition-duration: 0.2s;
+}
+#js_canvas_button:hover { border: 2px solid #3CFFDF; color: #3CFFDF; }
+#js_canvas_button:active { background-color: #FFFFFF }
+
+#scratch_button
+{
+	background-color: #000000;
+	color: #AAAAAA;
+	border: 2px solid #AAAAAA;
+	padding: 15px 15px;
+	border-radius: 12px;
+	text-align: center;
+	display: inline-block;
+	font-family: "Ubuntu";
+	letter-spacing: 3px;
+	font-size: 18px;
+	transition-duration: 0.2s;
+}
+#scratch_button:hover { border: 2px solid #B23AD3; color:#B23AD3; }
+#scratch_button:active { background-color: #FFFFFF }
+
+#about_me_button
+{
+	background-color: #000000;
+	color: #AAAAAA;
+	border: 2px solid #AAAAAA;
+	padding: 15px 15px;
+	border-radius: 12px;
+	text-align: center;
+	display: inline-block;
+	font-family: "Ubuntu";
+	letter-spacing: 3px;
+	font-size: 18px;
+	transition-duration: 0.2s;
+}
+#about_me_button:hover { border: 2px solid #FFFFFF; color:#FFFFFF; }
+#about_me_button:active { background-color: #FFFFFF }
+
+#google_play
+{
+	color: #FFFFFF;
+	font-family: "Ubuntu";
+	
+	min-width: 1000px;
+}
+
+
+
+#google_play_title 
+{
+	background-image: linear-gradient(to right, #333333, #000000, #000000);
+	padding-left: 50px;
+	height: 80px;
+	line-height: 80px;
+	width: 100%;
+	letter-spacing: 10px;
+	font-size: 50px;
+	vertical-align: middle;
+}
+
+#mirror_match
+{
+	padding-top: 100px;
+	padding-bottom: 50px;
+}
+
+#mirror_match_img
+{
+	border: 10px solid #FFFFFF;
+	border-radius: 50px;
+	width: 300px;
+}
+
+#mirror_match_button
+{
+	background-color: #000000;
+	color: #AAAAAA;
+	border: 2px solid #AAAAAA;
+	padding: 15px 15px;
+	border-radius: 12px;
+	text-align: center;
+	font-family: "Ubuntu";
+	letter-spacing: 3px;
+	font-size: 18px;
+	transition-duration: 0.2s;
+}
+#mirror_match_button:hover { border: 2px solid #FFFFFF; color:#FFFFFF; }
+#mirror_match_button:active { background-color: #FFFFFF }
+
+
+
+
+#ludum_dare
+{
+	color: #FFFFFF;
+	font-family: "Ubuntu";
+	
+	min-width: 1000px;
+}
+
+#ludum_dare_title 
+{
+	background-image: linear-gradient(to right, #333333, #000000, #000000);
+	padding-left: 50px;
+	height: 80px;
+	line-height: 80px;
+	width: 100%;
+	letter-spacing: 10px;
+	font-size: 50px;
+	vertical-align: middle;
+}
+
+#basil
+{
+	padding-top: 100px;
+	padding-bottom: 50px;
+}
+
+#basil_img
+{
+	border: 10px solid #FFFFFF;
+	border-radius: 50px;
+	width: 300px;
+}
+
+#basil_button
+{
+	background-color: #000000;
+	color: #AAAAAA;
+	border: 2px solid #AAAAAA;
+	padding: 15px 15px;
+	border-radius: 12px;
+	text-align: center;
+	font-family: "Ubuntu";
+	letter-spacing: 3px;
+	font-size: 18px;
+	transition-duration: 0.2s;
+}
+#basil_button:hover { border: 2px solid #FFFFFF; color:#FFFFFF; }
+#basil_button:active { background-color: #FFFFFF }
+
+#na
+{
+	padding-top: 100px;
+	padding-bottom: 50px;
+}
+
+#na_img
+{
+	border: 10px solid #FFFFFF;
+	border-radius: 50px;
+	width: 300px;
+}
+
+#na_button
+{
+	background-color: #000000;
+	color: #AAAAAA;
+	border: 2px solid #AAAAAA;
+	padding: 15px 15px;
+	border-radius: 12px;
+	text-align: center;
+	font-family: "Ubuntu";
+	letter-spacing: 3px;
+	font-size: 18px;
+	transition-duration: 0.2s;
+}
+#na_button:hover { border: 2px solid #FFFFFF; color:#FFFFFF; }
+#na_button:active { background-color: #FFFFFF }
+
+
+
+
+#js_canvas
+{
+	color: #FFFFFF;
+	font-family: "Ubuntu";
+	
+	min-width: 1000px;
+}
+
+#js_canvas_title 
+{
+	background-image: linear-gradient(to right, #333333, #000000, #000000);
+	padding-left: 50px;
+	height: 80px;
+	line-height: 80px;
+	width: 100%;
+	letter-spacing: 10px;
+	font-size: 50px;
+	vertical-align: middle;
+}
+
+#pool
+{
+	padding-top: 100px;
+	padding-bottom: 50px;
+}
+
+#pool_img
+{
+	border: 10px solid #FFFFFF;
+	border-radius: 50px;
+	width: 300px;
+}
+
+#pool_button
+{
+	background-color: #000000;
+	color: #AAAAAA;
+	border: 2px solid #AAAAAA;
+	padding: 15px 15px;
+	border-radius: 12px;
+	text-align: center;
+	font-family: "Ubuntu";
+	letter-spacing: 3px;
+	font-size: 18px;
+	transition-duration: 0.2s;
+}
+#pool_button:hover { border: 2px solid #FFFFFF; color:#FFFFFF; }
+#pool_button:active { background-color: #FFFFFF }
+
+#morse_code
+{
+	padding-top: 100px;
+	padding-bottom: 50px;
+}
+
+#morse_code_img
+{
+	border: 10px solid #FFFFFF;
+	border-radius: 50px;
+	width: 300px;
+}
+
+#morse_code_button
+{
+	background-color: #000000;
+	color: #AAAAAA;
+	border: 2px solid #AAAAAA;
+	padding: 15px 15px;
+	border-radius: 12px;
+	text-align: center;
+	font-family: "Ubuntu";
+	letter-spacing: 3px;
+	font-size: 18px;
+	transition-duration: 0.2s;
+}
+#morse_code_button:hover { border: 2px solid #FFFFFF; color:#FFFFFF; }
+#morse_code_button:active { background-color: #FFFFFF }
+
+
+
+
+#scratch
+{
+	color: #FFFFFF;
+	font-family: "Ubuntu";
+	
+	min-width: 1000px;
+}
+
+#scratch_title 
+{
+	background-image: linear-gradient(to right, #333333, #000000, #000000);
+	padding-left: 50px;
+	height: 80px;
+	line-height: 80px;
+	width: 100%;
+	letter-spacing: 10px;
+	font-size: 50px;
+	vertical-align: middle;
+}
+
+#profile
+{
+	padding-top: 100px;
+	padding-bottom: 50px;
+}
+
+#profile_img
+{
+	border: 10px solid #FFFFFF;
+	border-radius: 50px;
+	width: 300px;
+}
+
+#profile_button
+{
+	background-color: #000000;
+	color: #AAAAAA;
+	border: 2px solid #AAAAAA;
+	padding: 15px 15px;
+	border-radius: 12px;
+	text-align: center;
+	font-family: "Ubuntu";
+	letter-spacing: 3px;
+	font-size: 18px;
+	transition-duration: 0.2s;
+}
+#profile_button:hover { border: 2px solid #FFFFFF; color:#FFFFFF; }
+#profile_button:active { background-color: #FFFFFF }
+
+#featured
+{
+	padding-top: 100px;
+	padding-bottom: 50px;
+}
+
+#featured_img
+{
+	border: 10px solid #FFFFFF;
+	border-radius: 50px;
+	width: 300px;
+}
+
+#featured_button
+{
+	background-color: #000000;
+	color: #AAAAAA;
+	border: 2px solid #AAAAAA;
+	padding: 15px 15px;
+	border-radius: 12px;
+	text-align: center;
+	font-family: "Ubuntu";
+	letter-spacing: 3px;
+	font-size: 18px;
+	transition-duration: 0.2s;
+}
+#featured_button:hover { border: 2px solid #FFFFFF; color:#FFFFFF; }
+#featured_button:active { background-color: #FFFFFF }
+
+
+
+
+#about_me
+{
+	color: #FFFFFF;
+	font-family: "Ubuntu";
+	
+	min-width: 1000px;
+}
+
+#about_me_title 
+{
+	background-image: linear-gradient(to right, #333333, #000000, #000000);
+	padding-left: 50px;
+	height: 80px;
+	line-height: 80px;
+	width: 100%;
+	letter-spacing: 10px;
+	font-size: 50px;
+	vertical-align: middle;
+}
+
+#about_me_text
+{
+	width: 1000px;
+	font-size: 18px;
+	padding-left: 100px;
+	padding-top: 25px;
+	letter-spacing: 3px;
+}
+
+
+
+
+#footer
+{
+	color: #FFFFFF;
+	font-family: "Ubuntu";
+	letter-spacing: 5px;
+	font-size: 18px;
+	min-width: 1000px;
+}
+
+#footer_line
+{
+	padding-top: 100px;
+	width:80%;
+}
+
+#footer_text
+{
+	padding-top: 25px;
+	padding-bottom: 25px;
+}

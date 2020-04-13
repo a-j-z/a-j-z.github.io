@@ -1,5 +1,161 @@
-<body style = "background-color: rgb(10,30,40);">
-<div id = "container" style = "text-align: center">
+<!DOCTYPE html>
+<html lang="en-us">
 
-</div>
-</body>
+
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Ubuntu:bold">
+    <link rel="stylesheet" href="styles.css">
+    <title>AJZ</title>
+  </head>
+
+
+  <body>
+  	<script>
+		function scrollToElement(elementId) {
+		  var elmnt = document.getElementById(elementId);
+		  elmnt.scrollIntoView({behavior: "smooth"});
+		}
+	</script>
+
+
+
+    <div id="AJZ_cloud" align="center">
+    	<div id ="AJZ_cloud_img">
+    		<img src="AJZ_cloud_2.png" alt="[AJZ cloud]" id="AJZ_cloud_img_img">
+    	</div>
+    	<div id="AJZ_cloud_text">
+    		Abdul Zakkar | Medical Student & Game Developer
+    	</div>
+    	<div id="AJZ_cloud_line">
+    		<hr style="border: 1px solid#AAAAAA;" />
+    	</div>
+    	<div id="AJZ_cloud_buttons" align="center">
+    		<button id="google_play_button" type="button" onclick="scrollToElement('google_play')">Google Play</button>
+    		<button id="ludum_dare_button" type="button" onclick="scrollToElement('ludum_dare')">Ludum Dare</button>
+    		<button id="js_canvas_button" type="button" onclick="scrollToElement('j_canvas')">js Canvas</button>
+    		<button id="scratch_button" type="button" onclick="scrollToElement('scratch')">Scratch</button>
+    		<button id="about_me_button" type="button" onclick="scrollToElement('about_me')">About Me</button>
+    	</div>
+    </div>
+
+
+
+    <div id="google_play" align="center">
+    	<div id="google_play_title" align="left">
+			Google Play
+    	</div>
+    	<div style="letter-spacing: 100px; padding-bottom: 100px;">
+	    	<div id="mirror_match">
+	    		<img src="mirror_match_logo_store.png" alt="[mirror match]" id="mirror_match_img">
+	    	</div>
+	    	<button id="mirror_match_button" type="button"
+	    		onclick="window.location.href = 'https://a-j-z.github.io/Mirror-Match/'">Mirror Match</button>
+	    </div>
+    </div>
+
+
+
+    <div id="ludum_dare" align="center">
+    	<div id="ludum_dare_title" align="left">
+			Ludum Dare
+    	</div>
+    	<div style="letter-spacing: 100px; padding-bottom: 100px;">
+	    	<div style="display:inline-block;">
+		    	<div id="basil">
+		    		<img src="basil.png" alt="[basil]" id="basil_img">
+		    	</div>
+		    	<button id="basil_button" type="button"
+		    		onclick="window.location.href = 'https://a-j-z.github.io/basil/index.html'">LD45 - Basil</button>
+	    	</div>
+	    	<div style="display:inline-block;">
+		    	<div id="na">
+		    		<img src="na.png" alt="[na]" id="na_img">
+		    	</div>
+		    	<button id="na_button" type="button"
+		    		onclick="window.location.href = 'https://ldjam.com/events/ludum-dare/46/$181461'">LD46 - TBD</button>
+	    	</div>
+	    </div>
+    </div>
+
+
+
+    <div id="js_canvas" align="center">
+    	<div id="ludum_dare_title" align="left">
+			js Canvas
+    	</div>
+    	<div style="letter-spacing: 100px; padding-bottom: 100px;">
+	    	<div style="display:inline-block;">
+		    	<div id="pool">
+		    		<img src="na.png" alt="[pool]" id="pool_img">
+		    	</div>
+		    	<button id="pool_button" type="button"
+		    		onclick="window.location.href = 'https://a-j-z.github.io/pool/'">Pool</button>
+	    	</div>
+	    	<div style="display:inline-block;">
+		    	<div id="morse_code">
+		    		<img src="na.png" alt="[morse_code]" id="morse_code_img">
+		    	</div>
+		    	<button id="morse_code_button" type="button"
+		    		onclick="window.location.href = 'https://a-j-z.github.io/morse_code/'">Morse Code</button>
+	    	</div>
+	    </div>
+    </div>
+
+
+
+    <div id="scratch" align="center">
+    	<div id="scratch_title" align="left">
+			Scratch
+    	</div>
+    	<div style="letter-spacing: 100px; padding-bottom: 100px;">
+	    	<div style="display:inline-block;">
+		    	<div id="profile">
+		    		<img src="na.png" alt="[profile]" id="profile_img">
+		    	</div>
+		    	<button id="profile_button" type="button"
+		    		onclick="window.location.href = 'https://scratch.mit.edu/users/mrabdul/'";>Profile</button>
+	    	</div>
+	    	<div style="display:inline-block;">
+		    	<div id="featured">
+		    		<img src="na.png" alt="[featured]" id="featured_img">
+		    	</div>
+		    	<button id="featured_button" type="button"
+		    		onclick="window.location.href = 'https://scratch.mit.edu/projects/382594530/'">Knotted</button>
+	    	</div>
+	    </div>
+    </div>
+
+
+
+    <div id="about_me" align="center">
+    	<div id="about_me_title" align="left">
+			About me
+    	</div>
+    	<div align="left" id="about_me_text">
+    		I'm too cool for school nerds
+    		<br><br>
+    		Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Arcu non sodales neque sodales ut etiam sit amet. Libero justo laoreet sit amet cursus sit amet. Massa massa ultricies mi quis. Volutpat lacus laoreet non curabitur gravida arcu ac tortor dignissim. Varius sit amet mattis vulputate enim nulla. Nunc lobortis mattis aliquam faucibus purus in. Enim neque volutpat ac tincidunt vitae semper. Arcu vitae elementum curabitur vitae. Mattis ullamcorper velit sed ullamcorper morbi tincidunt ornare. Dignissim enim sit amet venenatis urna. A pellentesque sit amet porttitor. Quis blandit turpis cursus in hac habitasse platea. Ullamcorper eget nulla facilisi etiam dignissim diam quis. Massa sapien faucibus et molestie ac. Id semper risus in hendrerit gravida rutrum quisque non.
+    		<br><br>
+			In hendrerit gravida rutrum quisque non. Et netus et malesuada fames ac turpis egestas integer. Est ultricies integer quis auctor elit sed vulputate mi. Elit duis tristique sollicitudin nibh sit amet commodo nulla. Posuere ac ut consequat semper viverra nam libero justo. Nullam non nisi est sit amet. Amet risus nullam eget felis eget. Placerat in egestas erat imperdiet sed euismod. Tincidunt ornare massa eget egestas purus viverra accumsan in nisl. Nunc vel risus commodo viverra maecenas accumsan lacus vel facilisis. In cursus turpis massa tincidunt dui. Egestas quis ipsum suspendisse ultrices gravida dictum.
+			<br><br>
+			Quisque non tellus orci ac. Leo urna molestie at elementum eu. Vestibulum sed arcu non odio euismod lacinia at quis. Nibh cras pulvinar mattis nunc sed blandit libero. Ut tortor pretium viverra suspendisse. Arcu bibendum at varius vel. Scelerisque eleifend donec pretium vulputate. Nec sagittis aliquam malesuada bibendum arcu vitae. In aliquam sem fringilla ut. At risus viverra adipiscing at in tellus integer feugiat scelerisque. Non blandit massa enim nec. Dictum sit amet justo donec.
+    	</div>
+    </div>
+
+
+
+    <div id="footer" align="center">
+    	<div id="footer_line">
+    		<hr style="border: 1px solid#AAAAAA;" />
+    	</div>
+    	<div id="footer_text">
+    		Contact me at: mr.abdul51@gmail.com
+    	</div>
+    </div>
+  </body>
+  
+
+
+</html>

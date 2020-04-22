@@ -230,20 +230,20 @@ body {
 #basil_button:hover { border: 2px solid #FFFFFF; color:#FFFFFF; }
 #basil_button:active { background-color: #FFFFFF }
 
-#na
+#idle_idol
 {
 	padding-top: 100px;
 	padding-bottom: 50px;
 }
 
-#na_img
+#idle_idol_img
 {
 	border: 10px solid #FFFFFF;
 	border-radius: 50px;
 	width: 300px;
 }
 
-#na_button
+#idle_idol_button
 {
 	background-color: #000000;
 	color: #AAAAAA;
@@ -256,8 +256,8 @@ body {
 	font-size: 18px;
 	transition-duration: 0.2s;
 }
-#na_button:hover { border: 2px solid #FFFFFF; color:#FFFFFF; }
-#na_button:active { background-color: #FFFFFF }
+#idle_idol_button:hover { border: 2px solid #FFFFFF; color:#FFFFFF; }
+#idle_idol_button:active { background-color: #FFFFFF }
 
 
 

@@ -285,8 +285,8 @@ body {
 	font-size: 18px;
 	transition-duration: 0.2s;
 }
-#idle_idol_button:hover { border: 2px solid #FFFFFF; color:#FFFFFF; }
-#idle_idol_button:active { background-color: #FFFFFF }
+#repeter_button:hover { border: 2px solid #FFFFFF; color:#FFFFFF; }
+#repeter_button:active { background-color: #FFFFFF }
 
 
 

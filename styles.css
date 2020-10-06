@@ -259,6 +259,35 @@ body {
 #idle_idol_button:hover { border: 2px solid #FFFFFF; color:#FFFFFF; }
 #idle_idol_button:active { background-color: #FFFFFF }
 
+#repeter
+{
+	padding-top: 100px;
+	padding-bottom: 50px;
+}
+
+#repeter_img
+{
+	border: 10px solid #FFFFFF;
+	border-radius: 50px;
+	width: 300px;
+}
+
+#repeter_button
+{
+	background-color: #000000;
+	color: #AAAAAA;
+	border: 2px solid #AAAAAA;
+	padding: 15px 15px;
+	border-radius: 12px;
+	text-align: center;
+	font-family: "Ubuntu";
+	letter-spacing: 3px;
+	font-size: 18px;
+	transition-duration: 0.2s;
+}
+#idle_idol_button:hover { border: 2px solid #FFFFFF; color:#FFFFFF; }
+#idle_idol_button:active { background-color: #FFFFFF }
+
 
 
 
